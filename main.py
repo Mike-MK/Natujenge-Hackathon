@@ -33,6 +33,15 @@ print("B-flag: ", b_flag)
 
 length=0
 length |= data[14] << 8
-length |= data[14]
+length |= data[15]
 print("Length: ",length)
+
+# Q2
+tag = 0x0424
+value = 'Hello Natujenge Σ!'
+
+value_bytes =bytes(value,'utf-8')
+print(value) 
+
+
 
