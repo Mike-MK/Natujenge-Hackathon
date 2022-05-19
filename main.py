@@ -38,7 +38,12 @@ print("Length: ",length)
 
 # Q2
 tag = 0x0424
+print("Tag:", tag)
+
+
 value = 'Hello Natujenge Σ!'
+
+
 
 value_bytes =bytes(value,'utf-8')
 print(value) 
